@@ -1,138 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stars & Stripes Canvas</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stars & Stripes Canvas</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="stars-and-stripes.css">
+  <link rel="stylesheet" href="stars-and-stripes.css">
 </head>
+
 
 <body>
 
 <header>
-    <div class="logo">🇺🇸 Stars & Stripes Canvas</div>
+  <div class="logo">🇺🇸 Stars & Stripes Canvas</div>
 
-    <nav>
-        <a href="#dawn">Freedom's Dawn</a>
-        <a href="#plaza">Patriot's Plaza</a>
-        <a href="#unity">United We Stand</a>
-    </nav>
+  <nav>
+    <a href="#dawn">Freedom's Dawn</a>
+    <a href="#plaza">Patriot's Plaza</a>
+    <a href="#unity">United We Stand</a>
+  </nav>
 </header>
 
 <main>
 
-    <!-- PAGE 1 -->
+  <!-- PAGE 1 -->
+  <section id="dawn" class="page">
 
-    <section id="dawn" class="page">
+    <img src="images/firework1.png" class="firework-img fw1" alt="Patriotic fireworks">
+    <img src="images/firework2.png" class="firework-img fw2" alt="Colorful fireworks">
+    <img src="images/firework3.png" class="firework-img fw3" alt="Golden fireworks">
+    <img src="images/firework4.png" class="firework-img fw4" alt="Fireworks display">
+    <img src="images/character1.gif" class="character char1" alt="Dancing character">
+    <img src="images/character2.gif" class="character char2" alt="Celebrating character">
+    <img src="images/character3.gif" class="character char3" alt="Standing character">
+    <img src="images/character4.gif" class="character char4" alt="Dancing character">
+    <img src="images/character5.gif" class="character char5" alt="Cartoon celebration character">
+    <img src="images/character6.gif" class="character char6" alt="Standing celebration character">
 
-        <img src="images/firework1.png" class="firework-img fw1" alt="Patriotic fireworks">
-        <img src="images/firework2.png" class="firework-img fw2" alt="Colorful fireworks">
-        <img src="images/firework3.png" class="firework-img fw3" alt="Golden fireworks">
-        <img src="images/firework4.png" class="firework-img fw4" alt="Fireworks display">
+    <div class="hero">
+      <h1>Freedom's Dawn</h1>
+    </div>
 
+    <audio id"fireworks-sound" autoplay loop>
+      <source src="Fireworks.mp3" type="audio/mpeg">
+    </audio>
 
+  </section>
 
-        <div class="hero">
-            <h1>Freedom's Dawn</h1>
+  <!-- PAGE 2 -->
+  <section id="plaza" class="page">
+    <h1>Patriot's Plaza</h1>
 
-            <p>
-                As darkness falls over the harbor, colorful fireworks illuminate the sky,
-                celebrating America's independence and honoring the spirit of freedom.
-            </p>
+    <div class="card-grid">
+      <article class="card">
+        <h2>🎆 Fireworks Show</h2>
+        <p>Bursts of red, white, and blue explode above the harbor.</p>
+      </article>
 
-            <a href="#plaza" class="btn">
-                Continue Journey →
-            </a>
-        </div>
+      <article class="card">
+        <h2>⛵ Harbor Boats</h2>
+        <p>Boats rest peacefully while reflections dance across the water.</p>
+      </article>
 
-    </section>
+      <article class="card">
+        <h2>🌆 City Skyline</h2>
+        <p>The city glows beneath a spectacular Independence Day celebration.</p>
+      </article>
 
+      <article class="card">
+        <h2>⭐ American Pride</h2>
+        <p>Families gather together to celebrate freedom, unity, and hope.</p>
+      </article>
+    </div>
 
-    <!-- PAGE 2 -->
-    <section id="plaza" class="page">
+    <a href="#unity" class="btn">Final Chapter →</a>
+  </section>
 
-        <h1>Patriot's Plaza</h1>
+  <!-- PAGE 3 -->
+  <section id="unity" class="page">
+    <div class="hero unity-hero">
+      <h1>United We Stand</h1>
 
-        <div class="card-grid">
+      <p>
+        Under a sky filled with fireworks, Americans come together in celebration,
+        remembering the sacrifices that secured our liberty.
+      </p>
 
-            <article class="card">
-                <h2>🎆 Fireworks Show</h2>
-                <p>
-                    Bursts of red, white, and blue explode above the harbor.
-                </p>
-            </article>
+      <h2>Happy Independence Day! 🇺🇸</h2>
 
-            <article class="card">
-                <h2>⛵ Harbor Boats</h2>
-                <p>
-                    Boats rest peacefully while reflections dance across the water.
-                </p>
-            </article>
-
-            <article class="card">
-                <h2>🌆 City Skyline</h2>
-                <p>
-                    The city glows beneath a spectacular Independence Day celebration.
-                </p>
-            </article>
-
-            <article class="card">
-                <h2>⭐ American Pride</h2>
-                <p>
-                    Families gather together to celebrate freedom, unity, and hope.
-                </p>
-            </article>
-
-        </div>
-
-        <a href="#unity" class="btn">
-            Final Chapter →
-        </a>
-
-    </section>
-
-
-    <!-- PAGE 3 -->
-    <section id="unity" class="page">
-
-        <div class="hero">
-
-            <h1>United We Stand</h1>
-
-            <p>
-                Under a sky filled with fireworks, Americans come together in celebration,
-                remembering the sacrifices that secured our liberty.
-            </p>
-
-            <h2>Happy Independence Day! 🇺🇸</h2>
-
-            <a href="#dawn" class="btn">
-                Start Again
-            </a>
-
-        </div>
-
-    </section>
+      <a href="#dawn" class="btn">Start Again</a>
+    </div>
+  </section>
 
 </main>
 
 <footer>
-    <p>
-        Created by Femi Oduba & Partner | Stars & Stripes Canvas 2026
-    </p>
-
-    <p>
-        "Freedom is the most powerful creative force."
-    </p>
+  <p>Created by Femi Oduba & Hamza | Stars & Stripes Canvas 2026</p>
+  <p>"Freedom is the most powerful creative force."</p>
 </footer>
 
 </body>
 </html>
-
-
-
